@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+body {
+    background-color: red;
+}
+
+.secaoHome, .secaoContato {
+    font-family: "Itim", cursive;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.txthome, .txtcontato {
+    font-family: "Itim", cursive;
+    font-size: 32px;
+    color: white;
+    padding: 20px;
+}
+
+.containerImage, .containerLine, .containerContato {
+    text-align: center;
+    margin-top: 35px
+}
+
+.linkPerfilProjeto {
+    font-family: "Itim", cursive;
+    color: white;
+    font-size: 48px;
+}
+
+.linkInstagramProjeto {
+    text-decoration: none;
+}
+
+/* Estilos para o container de contato */
+.containerContato {
+    display: flex;
+    align-items: center; /* Alinha os itens verticalmente */
+    justify-content: center;
+    height: 10vh;
+}
+
+/* Estilos para o logotipo do Instagram */
+.instagramLogo {
+    width: 80px; /* Defina a largura desejada */
+    height: auto; /* Mantém a proporção */
+    margin-right: 10px; /* Adiciona margem à direita para separar do texto */
+}
+
+/* Estilos para dispositivos maiores que 768px */
+@media (min-width: 768px) {
+    .containerContato {
+        height: 20vh; /* Redefine a altura para dispositivos maiores */
+    }    
+}
+
+/* Estilos para a imagem da tabela ODS */
+.imgTabelaODS {
+    max-width: 100%; /* Define a largura máxima da imagem como 100% do contêiner pai */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilos para dispositivos menores que 576px */
+@media (max-width: 768px) {
+    .txthome, .txtcontato {
+        font-size: 24px; /* Reduz o tamanho da fonte para dispositivos menores */
+    }
+
+    .linkPerfilProjeto {
+        font-size: 36px; /* Reduz o tamanho da fonte para dispositivos menores */
+    }
+}

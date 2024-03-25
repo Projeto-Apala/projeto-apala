@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.footer {
+    background-color: white;
+}
+
+.containerFooter, .containerLinksRodape {
+    text-align: center;
+}
+
+.logotipoProjetoApala {
+    margin-top: 20px;
+}
+
+.copyrightProjetoApala, .txtDireitosReservados {
+    font-family: "Itim", cursive;
+    color: red;
+    text-align: center;
+}
+
+/* Estilos para os links do rodapé */
+.linksRodape {
+    font-family: "Itim", cursive;
+    color: red;
+    font-size: 20px;
+    padding: 10px;
+    flex-direction: row; /* Define a direção dos itens como coluna */
+}

@@ -1,0 +1,21 @@
+/* Estilos padrão para a navbar */
+.navbar {
+    background-color: white;
+    text-align: center;
+}
+
+.linksnavbar {
+    font-family: 'Itim', cursive;
+    font-size: 32px;
+    padding: 10px;
+    text-decoration: none;
+    color: red;
+}
+
+/* Estilos para dispositivos menores que 768px (mobile) */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Altera a direção dos itens para coluna */
+        align-items: center; /* Centraliza os itens horizontalmente */
+    }
+}

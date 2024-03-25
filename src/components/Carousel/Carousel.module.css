@@ -1,0 +1,38 @@
+.carouselImage {
+    width: 50%; /* Ajuste a largura conforme necessário para as imagens ficarem juntinhas */
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    padding: 20px; /* Reduzi o padding para deixar as imagens mais próximas */
+    border-radius: 30px; /* Reduzi o raio da borda para evitar espaços em branco entre as imagens */
+  }
+  
+/* Estilos para as bolinhas (dots) do carrossel */
+.slickdots {
+    bottom: -6px; /* Ajuste a distância do fundo conforme necessário para dispositivos maiores */
+}
+
+.slickdots li button:before {
+    color: #ffffff !important; /* Altere a cor das bolinhas para branco */
+    font-size: 12px;
+}
+
+.slickdots li.slick-active button:before {
+    color: #ffffff !important; /* Altere a cor das bolinhas quando estiverem ativas para branco */
+}
+  
+  /* Estilos responsivos para dispositivos menores */
+  @media (max-width: 768px) {
+    .carouselImage {
+      width: 50%; /* Ajuste a largura para dispositivos menores */
+      padding: -5px; /* Ajuste o padding para dispositivos menores */
+    }
+  
+    .slick-dots {
+      bottom: 2px; /* Ajuste a distância do fundo para dispositivos menores */
+    }
+  
+    .slick-dots li button:before {
+      font-size: 10px; /* Ajuste o tamanho da fonte para dispositivos menores */
+    }
+  }
