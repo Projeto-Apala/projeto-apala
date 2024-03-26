@@ -11,10 +11,10 @@ function Footer() {
             <p className={styles.txtDireitosReservados}>Todos os Direitos Reservados</p>
 
             <div className={styles.containerLinksRodape}>
-                <a className={styles.linksRodape}>Home</a>
+                <a className={styles.linksRodape} href="#home">Home</a>
                 <a className={styles.linksRodape}>Sobre</a>
                 <a className={styles.linksRodape}>Doação</a>
-                <a className={styles.linksRodape}>Contato</a>
+                <a className={styles.linksRodape} href="#contato">Contato</a>
             </div>             
         </footer>
     );
